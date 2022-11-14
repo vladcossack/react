@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when SearchResults then snapshot created 1`] = `
+<h3
+  className="sc-fzqBZW gWWlHe container"
+>
+  <span
+    className="sc-fzqNJr dayFnk"
+  >
+    200
+     
+  </span>
+  movies found
+</h3>
+`;

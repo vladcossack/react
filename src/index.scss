@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+button,
+input {
+  border: none;
+}
+
+body {
+  font-family: 'Baloo 2', cursive;
+  background-color: #555555;
+
+  .hidden {
+    display: none;
+  }
+
+  .show {
+    display: block;
+  }
+
+  .has-error {
+    border: 1px solid #f65261;
+  }
+
+  .svg-icon-netflix-logo {
+    fill: #f65261;
+    height: 24px;
+    width: 90px;
+  }
+
+  .container {
+    width: 90vw;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .header {
+    padding-top: 25px;
+    position: relative;
+    margin-bottom: 170px;
+
+    .find-movie-wrapper {
+      width: 90%;
+      margin: 80px auto 20px;
+    }
+  }
+
+  .content {
+    .category.active {
+      position: relative;
+
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        background: #f65261;
+        bottom: -3px;
+        left: 0;
+        height: 4px;
+        width: 100%;
+      }
+    }
+
+    .movie-icon {
+      display: none;
+    }
+
+    .movie-card-hovered {
+      .movie-icon {
+        display: block;
+      }
+    }
+  }
+
+  footer {
+    svg {
+      height: 24px;
+      width: 90px;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  .page-not-found {
+    .svg-icon-netflix-logo {
+      position: absolute;
+      left: 30px;
+      top: 20px;
+    }
+
+    footer {
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+
+      .svg-icon-netflix-logo {
+        position: relative;
+        left: 0;
+        top: 0;
+      }
+    }
+  }
+}

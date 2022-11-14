@@ -1,0 +1,12 @@
+{
+    "transform": {
+      "^.+\\.(js|jsx)$": "babel-jest"
+    },
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "setupFilesAfterEnv": [
+      "__tests__/configs/enzyme.config.js"
+    ],
+    "modulePathIgnorePatterns": ["__tests__/configs"]
+  }

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component should render Footer snapshot 1`] = `
+<DocumentFragment>
+  <footer
+    class="sc-Axmtr JRjzr"
+  >
+    <svg
+      data-file-name="SvgLogo"
+    />
+  </footer>
+</DocumentFragment>
+`;
